@@ -2,8 +2,8 @@
  * GoodTecher LeetCode Tutorial 1. Two Sum
  *
  * http://www.goodtecher.com/leetcode-1-two-sum-java/
- * www.goodtecher.com
  *
+ * www.goodtecher.com
  */
 
 

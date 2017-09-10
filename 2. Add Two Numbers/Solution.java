@@ -2,8 +2,8 @@
  * GoodTecher LeetCode Tutorial 2. Add Two Numbers
  *
  * http://www.goodtecher.com/leetcode-2-add-two-numbers-java/
- * www.goodtecher.com
  *
+ * www.goodtecher.com
  */
 
 /**
