@@ -3,11 +3,14 @@
  *
  * http://www.goodtecher.com/leetcode-35-search-insert-position-java/
  *
- * www.goodtecher.com
+ * http://www.goodtecher.com
+ *
+ * https://github.com/GoodTecher/
  */
 
 
 class Solution {
+
   public int searchInsert(int[] nums, int target) {
     int start = 0;
     int end = nums.length - 1;
@@ -16,7 +19,7 @@ class Solution {
       int mid = start + (end - start) / 2;
       if (nums[mid] == target) {
         return mid;
-      } else if(nums[mid] < target) {
+      } else if (nums[mid] < target) {
         start = mid;
       } else {
         end = mid;

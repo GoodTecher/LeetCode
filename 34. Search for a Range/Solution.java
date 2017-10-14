@@ -3,10 +3,14 @@
  *
  * http://www.goodtecher.com/leetcode-34-search-range-java/
  *
- * www.goodtecher.com
+ * http://www.goodtecher.com
+ *
+ * https://github.com/GoodTecher/
  */
 
+
 class Solution {
+
   public int[] searchRange(int[] nums, int target) {
     int[] result = new int[2];
     result[0] = -1;

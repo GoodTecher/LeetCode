@@ -3,7 +3,9 @@
  *
  * http://www.goodtecher.com/leetcode-1-two-sum-java/
  *
- * www.goodtecher.com
+ * http://www.goodtecher.com
+ *
+ * https://github.com/GoodTecher/
  */
 
 

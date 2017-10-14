@@ -3,7 +3,9 @@
  *
  * http://www.goodtecher.com/leetcode-121-best-time-buy-sell-stock-java/
  *
- * www.goodtecher.com
+ * http://www.goodtecher.com
+ *
+ * https://github.com/GoodTecher/
  */
 
 

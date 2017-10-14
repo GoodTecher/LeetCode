@@ -3,19 +3,18 @@
  *
  * http://www.goodtecher.com/leetcode-144-binary-tree-preorder-traversal-java/
  *
- * www.goodtecher.com
+ * http://www.goodtecher.com
+ *
+ * https://github.com/GoodTecher/
  */
 
+
 /**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
+ * Definition for a binary tree node. public class TreeNode { int val; TreeNode left; TreeNode
+ * right; TreeNode(int x) { val = x; } }
  */
 class Solution {
+
   public List<Integer> preorderTraversal(TreeNode root) {
     List<Integer> result = new ArrayList<>();
     Stack<TreeNode> stack = new Stack<>();

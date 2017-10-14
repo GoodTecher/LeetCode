@@ -3,7 +3,9 @@
  *
  * http://www.goodtecher.com/leetcode-2-add-two-numbers-java/
  *
- * www.goodtecher.com
+ * http://www.goodtecher.com
+ *
+ * https://github.com/GoodTecher/
  */
 
 /**

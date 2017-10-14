@@ -3,10 +3,14 @@
  *
  * http://www.goodtecher.com/leetcode-122-best-time-buy-sell-stock-ii-java/
  *
- * www.goodtecher.com
+ * http://www.goodtecher.com
+ *
+ * https://github.com/GoodTecher/
  */
 
+
 public class Solution {
+
   public int maxProfit(int[] prices) {
     int maxProfit = 0;
 

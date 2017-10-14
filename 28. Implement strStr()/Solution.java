@@ -3,7 +3,9 @@
  *
  * http://www.goodtecher.com/leetcode-28-implement-strstr-java/
  *
- * www.goodtecher.com
+ * http://www.goodtecher.com
+ *
+ * https://github.com/GoodTecher/
  */
 
 
