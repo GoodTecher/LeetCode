@@ -1,7 +1,7 @@
 /**
- * GoodTecher LeetCode Tutorial 101. Symmetric Tree
+ * GoodTecher LeetCode Tutorial 104. Maximum Depth of Binary Tree
  *
- * http://www.goodtecher.com/leetcode-101-symmetric-tree/
+ * http://www.goodtecher.com/leetcode-104-maximum-depth-of-binary-tree/
  *
  * http://www.goodtecher.com
  *
@@ -18,27 +18,15 @@
  * }
  */
 class Solution {
-  public boolean isSymmetric(TreeNode root) {
+  public int maxDepth(TreeNode root) {
     if (root == null) {
-      return true;
+      return 0;
     }
 
-    return isMirror(root.left, root.right);
-  }
+    int leftDepth = maxDepth(root.left);
+    int rightDepth = maxDepth(root.right);
 
-  private boolean isMirror(TreeNode node1, TreeNode node2) {
-    if (node1 == null && node2 == null) {
-      return true;
-    }
-
-    if (node1 == null || node2 == null) {
-      return false;
-    }
-
-    if (node1.val != node2.val) {
-      return false;
-    }
-
-    return node1.val == node2.val && isMirror(node1.left, node2.right) && isMirror(node1.right, node2.left);
+    int maxDepth = Math.max(leftDepth, rightDepth) + 1;
+    return maxDepth;
   }
 }
