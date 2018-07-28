@@ -1,10 +1,7 @@
 /**
  * GoodTecher LeetCode Tutorial 18. 4Sum
- *
  * http://www.goodtecher.com/leetcode-18-4sum/
- *
  * http://www.goodtecher.com
- *
  * https://github.com/GoodTecher/
  */
 
